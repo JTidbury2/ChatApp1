@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Cairo";
+    src: url("Cairo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cairo Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("Cairo-Bold.ttf");
+}
+
+.scroll-pane {
+    -fx-background: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+}
+.scroll-pane .viewport {
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#2c9ddd, #7fd0fd);
+}
+.messages {
+    -fx-font-family: "Cairo";
+    -fx-padding: 5 5 5 5;
+    -fx-font-size: 16px;
+    -fx-line-spacing: -5px;
+}
+.timestamp {
+    -fx-fill: #4b4b4b;
+}
+.nickname {
+    -fx-font-weight: 700;
+    -fx-fill: blue;
+}
+.my_nickname {
+    -fx-font-weight: 700;
+    -fx-fill: red;
+}
